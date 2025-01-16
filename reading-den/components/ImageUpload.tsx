@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 
-const { env: {imagekit: {publicKey, privateKey, urlEndpoint}}} = config;
+const { env: {imagekit: {publicKey, urlEndpoint}}} = config;
 
 const authenticator = async () => {
   try{
